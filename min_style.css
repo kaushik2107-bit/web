@@ -1,0 +1,43 @@
+@media only screen and (max-width: 650px) {
+	body {
+        background-color: rgba(5, 5, 0 ,1 );
+    }
+    .header .menu {
+        display : none;
+    }
+    .hamburger_menu {
+        display: block;
+        background-color: rgba(5, 5, 0 ,1 );
+        width: calc(100% - 200px);
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .header ul {
+        margin-top: 70px;
+        z-index: 1;
+        list-style: none;
+        width: 250px;
+        position: absolute;
+        margin-left: calc(100% - 250px);
+        /* display: block !important; */
+        z-index: 1;
+    }
+    .header li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    }
+    .header ul li:hover a {
+        background-color: transparent;
+        color: black;
+    }
+    .header ul li:hover {
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+    }
+    
+}
