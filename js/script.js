@@ -36,6 +36,7 @@ function toggles() {
         
     }   
 }
+
 // document.addEventListener('mouseup', function(e) {
 //     var container = document.getElementById('menu-list');
 //     if (!container.contains(e.target)) {
